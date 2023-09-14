@@ -1,7 +1,40 @@
-html {
-  max-width: 720px;
+.card > p {
+  color: rgb(100, 50, 20);
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
 }
 
-body {
-  background: #fff;
+p:focus,
+p:active,
+p:hover {
+  direction: rtl;
+}
+
+#test {
+  color: initial;
+  -webkit-text-fill-color: initial;
+  -webkit-text-stroke: initial;
+  text-align: center;
+}
+
+pre {
+  tab-size: 10;
+  letter-spacing: 0.1em;
+  text-decoration: underline dotted red;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+}
+
+span {
+  font-size: larger;
+}
+
+.block {
+  display: inline-block;
+  background: green;
+  margin: auto;
+  width: 250px;
 }

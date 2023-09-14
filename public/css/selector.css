@@ -1,0 +1,201 @@
+/* :root {
+  background: purple;
+}
+
+html {
+  max-width: 720px;
+
+  background: blue;
+}
+
+body {
+  background: purple;
+}
+
+* {
+  color: red;
+}
+
+.box {
+  background: #2c2828;
+}
+
+#user {
+  color: green;
+}
+
+h1,
+h2#user,
+button {
+  color: aqua;
+}
+
+.button {
+  background: red;
+}
+
+div > p {
+  color: brown;
+}
+
+#user,
+.user {
+  color: blue;
+}
+
+footer > .user {
+  color: crimson;
+}
+
+footer > p {
+  color: green;
+}
+
+footer em {
+  color: darkolivegreen;
+}
+
+footer .child {
+  color: dimgrey;
+}
+
+h1 + p {
+  background: black;
+}
+
+h1 ~ p {
+  color: coral;
+}
+
+h1 ~ div > em {
+  background: maroon;
+}
+
+h1 ~ * > em {
+  background: maroon;
+} */
+/* 
+.card-dark {
+  background: #cec4c4;
+}
+
+.item {
+  color: red;
+}
+
+.item:first-child {
+  color: black;
+}
+
+.item:only-of-type {
+  color: green;
+}
+
+.item:nth-child(2) {
+  color: blue;
+}
+
+p:not(.item) {
+  color: blueviolet;
+}
+
+.input-dark {
+  background: #4b4a4a;
+}
+
+.input-dark[required] {
+  background: #e21111;
+}
+
+.input-dark[type='number'] {
+  background: #11e28b;
+}
+
+.small-img[alt~='small'] {
+  height: 500px;
+}
+
+a[rel~='external'] {
+  color: #e21111;
+}
+
+button[class|='btn'] {
+  background: darkslateblue;
+}
+
+a[class^='btn'] {
+  background: rgb(201, 21, 126);
+}
+
+a[class*='btn'] {
+  background: rgb(53, 12, 165);
+}
+
+a[class$='big'] {
+  background: rgb(12, 165, 114);
+}
+
+.btn::first-letter {
+  color: #e21111;
+}
+
+.big-text::first-line {
+  color: maroon;
+}
+
+.big-text::before,
+.big-text::after {
+  content: '$$$';
+} */
+
+#test:target {
+  color: red;
+}
+
+.link:link {
+  color: red;
+}
+
+.link:hover {
+  color: crimson;
+}
+
+.card:hover {
+  background: yellow;
+}
+
+input {
+  background-color: gray;
+}
+
+input:focus {
+  background-color: green;
+}
+
+.card:focus-within {
+  background-color: aqua;
+}
+
+button {
+  background-color: blueviolet;
+}
+
+button:enabled {
+  background-color: darkslategrey;
+}
+
+button:disabled {
+  background-color: aqua;
+}
+
+.inp:read-write {
+  background-color: chartreuse;
+}
+
+input[type='checkbox']:checked ~ span {
+  background-color: cadetblue;
+}
+
+.valid:valid {
+  background-color: yellow;
+}
